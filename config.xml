@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Animabus</name>
+    <description>
+        Aplicativo componente do sistema Animabus.
+    </description>
+    <author email="renancps77@gmail.com" href="#">
+        Renan Carvalho - CEFET/RJ
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+
+    <preference name="orientation" value="portrait" />
+
+    <icon src="logo.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="logo.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="logo.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="logo.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="logo.png" gap:platform="android" gap:density="xxhdpi" />
+
+    <gap:plugin name="cordova-plugin-compat" source="npm" version="1.0.0" />
+    <gap:plugin name="cordova-plugin-device" source="npm" version="1.1.2" />
+    <gap:plugin name="cordova-plugin-device-motion" source="npm" version="1.2.1" />
+    <gap:plugin name="cordova-plugin-geolocation" source="npm" version="2.2.0" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.2.2" />
+</widget>

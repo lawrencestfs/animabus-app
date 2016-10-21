@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="estrela_voto_100%.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5596"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5598" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5590"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#501616;stop-opacity:1;"
+         offset="0"
+         id="stop5592" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8625"
+     inkscape:cx="28.331054"
+     inkscape:cy="51.549651"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     guidetolerance="10000"
+     objecttolerance="10000"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     borderlayer="false"
+     showguides="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36216)">
+    <path
+       sodipodi:type="star"
+       style="fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:4.05074535;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.40507453, 0.40507452999999999;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4142"
+       sodipodi:sides="5"
+       sodipodi:cx="50.26902"
+       sodipodi:cy="1006.4561"
+       sodipodi:r1="50.919083"
+       sodipodi:r2="25.459541"
+       sodipodi:arg1="0.94145225"
+       sodipodi:arg2="1.5697708"
+       inkscape:flatsided="false"
+       inkscape:rounded="0.005"
+       inkscape:randomized="0"
+       d="m 80.240737,1047.6198 c -0.136677,0.1 -29.77654,-15.7043 -29.945607,-15.7042 -0.169068,2e-4 -29.776453,15.8648 -29.913333,15.7656 -0.136881,-0.099 5.734251,-33.1721 5.681841,-33.3328 -0.05241,-0.1608 -24.2897346,-23.41663 -24.2376546,-23.57747 0.05208,-0.16085 33.3205016,-4.79714 33.4571786,-4.89666 0.136677,-0.0995 14.76457,-30.33704 14.933638,-30.33721 0.169068,-1.7e-4 14.858951,30.20728 14.995832,30.30652 0.136881,0.0992 33.414741,4.66728 33.467151,4.82802 0.05241,0.16074 -24.137165,23.4663 -24.189245,23.6271 -0.05208,0.1609 5.886876,33.2216 5.750199,33.3211 z"
+       inkscape:transform-center-x="0.015955977"
+       inkscape:transform-center-y="-4.7798288"
+       transform="matrix(0.98880294,0,0,0.98614403,0.56267678,14.728912)" />
+  </g>
+</svg>

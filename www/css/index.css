@@ -1,0 +1,218 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+html, body {
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+
+/*---   MENU DA TELA PRINCIPAL  ---*/
+.appbar {
+    height: 15%;
+    background-color: rgb(66, 66, 66);
+}
+
+.appbar-logo {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 50%;
+    margin: -35px 0 0 40px;
+}
+
+.btn-play {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    top: 50%;
+    margin: -27.5px 60px 0 0;
+    float: right;
+}
+
+.btn-stop {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 50%;
+    margin: -25px 50px 0 0;
+    float: right;
+}
+
+
+/*---   TELA COM OS DADOS DA VIAGEM ---*/
+
+div.Tela-Dados{
+    height: 85%;
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+}
+
+div.Dados-Principais{
+    font-family: sans-serif;
+    width: 50%;
+    height: 23%;
+    float: right;
+}
+
+h2{
+    font-size: 1.7em;
+}
+
+h2.acel{
+    font-size: 1.0em;
+}
+
+h4{
+    font-size: 1.2em;
+    font-family: monospace;
+    margin: 2% 0 5% 0;
+}
+
+.Dados {
+    font-size: 1.3em;
+    color: rgb(36, 113, 175);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    padding: 7px 14px;
+    background-color: transparent;
+}
+
+
+.Dados-Precisao {
+    clear: right;
+}
+
+
+.Dados-Principais_acl {
+    width: 33%;
+    height: 23%;
+    float: right;
+}
+
+
+/*---   PROMPT DE COMANDO   ---*/
+.prompt-background {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.prompt-on {
+    -webkit-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+}
+
+.prompt-box {
+    height: 35%;
+    width: 90%;
+    text-align: center;
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 7%;
+    -webkit-transform: translate(5%, 40%);
+    transform: translate(5%, 40%);
+}
+
+.titulo {
+    font-size: 1.5em;
+}
+
+.mensagem-erro {
+    font-size: 1.0em;
+    color: transparent;
+}
+
+.box-texto {
+    font-size: 1.3em;
+    width: 80%;
+    border: 1.8px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.box-texto:hover {
+    font-size: 1.3em;
+    text-align: center;
+    width: 80%;
+    border: 1.9px solid rgb(110, 179, 247);
+    padding: 10px;
+}
+
+.box-btn {
+    font-size: 1.3em;
+    width: 50%;
+    height: 20%;
+}
+
+.box-btn:active {
+    font-size: 1.3em;
+    width: 50%;
+    height: 20%;
+    border: 1px solid rgb(13, 128, 242);
+    background-color: rgb(13, 128, 242);
+    transition: all .1s linear;
+    -o-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -webkit-transition: all .1s linear; 
+}
+
+
+/*---   VOTO    ---*/
+.Voto {
+    height: 85%;
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+    -webkit-transform: translate(100%, -217.80%);
+    transform: translate(100%, -217.80%);
+}
+
+.Voto-Ativado {
+    -webkit-transform: translate(0%, -217.80%);
+    transform: translate(0%, -217.80%);
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+}
+
+.titulos-voto {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: rgb();
+    position: relative;
+    margin: 0;
+    margin-bottom: 10%;
+    top: 5%;
+}
+
+.star {
+    width: 3.2em;
+    height: 3.2em;
+    margin: 10% 2.5% 10% 2.5%;
+}
+
+
+.voto-btn {
+    font-size: 1.3em;
+    width: 50%;
+    height: 10%;
+    display: none;
+}
+
+.voto-btn:active {
+    font-size: 1.3em;
+    width: 50%;
+    height: 10%;
+    border: 1px solid rgb(13, 128, 242);
+    background-color: rgb(13, 128, 242);
+    -webkit-transition-duration: .1s; 
+    transition-duration: .1s;
+}

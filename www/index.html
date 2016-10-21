@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/index-lowres.css" media="screen and (min-width: 0px) and (max-width: 360px)">
+        <title>Animabus--Index</title>
+    </head>
+    <body>
+        <!--    MENU DA TELA PRINCIPAL    -->
+        <div class="appbar">
+            <img class="appbar-logo" src="img/appbar-logo.png">
+            <input type="image" id="btn-stop" class="btn-stop" src="img/stop-off.svg">
+            <input type="image" id="btn-play" class="btn-play" src="img/play-on.svg" onclick="iniciarCaptura()">
+        </div>
+
+        <!--    TELA COM OS DADOS DA VIAGEM    -->
+        <div class="Tela-Dados">
+            <div class="Dados-Principais">        
+                <h2>Longitude</h2>
+                <input id="longitude" class="Dados" type="button" value="" disabled></input>  
+            </div>
+
+            <div class="Dados-Principais">
+                <h2>Latitude</h2>
+                <input id="latitude" class="Dados" type="button" value="" disabled></input>  
+            </div>
+
+            <div class="Dados-Precisao"> 
+                <!--h4>Precisão de Latitude/Longitude: <span></span></h4-->
+            </div>
+
+            <div class="Dados-Principais">
+                <h2>Direção</h2>
+                <input id="direcao" class="Dados" type="button" value="" disabled></input>  
+            </div>
+
+            <div class="Dados-Principais">
+                <h2>Altitude</h2>
+                <input id="altitude" class="Dados" type="button" value="" disabled></input>  
+            </div>
+
+            <div class="Dados-Precisao">
+                <!--h4>Precisão de Altitude: <span></span></h4-->
+            </div>
+
+
+            <h2>Aceleração (m/s²)</h2>
+            <div class="Dados-Principais_acl">
+                <h2 class="acel">Z</h2>
+                <input id="eixo_z" class="Dados" type="button" value="" disabled></input>  
+            </div>
+
+            <div class="Dados-Principais_acl">
+                <h2 class="acel">Y</h2>
+                <input id="eixo_y" class="Dados" type="button" value="" disabled></input>  
+            </div>
+
+            <div class="Dados-Principais_acl"> 
+                <h2 class="acel">X</h2>
+                <input id="eixo_x" class="Dados" type="button" value="" disabled></input>  
+            </div>
+
+        </div>
+
+        <!--    PROMPT DE COMANDO    -->
+        <div id="prompt-background" class="prompt-background">
+            <div class="prompt-box">
+                <span class="titulo">Digite o número do ônibus por favor:</span>
+                <br><br>
+                <span id="mensagem-erro" class="mensagem-erro">Número de ônibus incorreto =(</span>
+                <br><br>
+                <input type="text" id="n_onibus" class="box-texto"></input>
+                <br><br>
+                <input type="button" class="box-btn" value="Ok" onclick="verificarNumero()"></input>
+            </div>
+        </div>
+
+        <!--    VOTO    -->
+        <div id="Voto" class="Voto">
+            <p class="titulos-voto">Média de Avaliações</p>
+            <img class="star" id="estrela_media_1" src="img/media/estrela_padrao.svg" />      
+            <img class="star" id="estrela_media_2" src="img/media/estrela_padrao.svg" /> 
+            <img class="star" id="estrela_media_3" src="img/media/estrela_padrao.svg" /> 
+            <img class="star" id="estrela_media_4" src="img/media/estrela_padrao.svg" /> 
+            <img class="star" id="estrela_media_5" src="img/media/estrela_padrao.svg" />
+            
+            <p class="titulos-voto">Sua Avaliação</p>
+            <img class="star" id="estrela_voto_1" src="img/avaliacao/estrela_padrao.svg" onClick="receberVoto_pt2(1)" /> 
+            <img class="star" id="estrela_voto_2" src="img/avaliacao/estrela_padrao.svg" onClick="receberVoto_pt2(2)" /> 
+            <img class="star" id="estrela_voto_3" src="img/avaliacao/estrela_padrao.svg" onClick="receberVoto_pt2(3)" /> 
+            <img class="star" id="estrela_voto_4" src="img/avaliacao/estrela_padrao.svg" onClick="receberVoto_pt2(4)" /> 
+            <img class="star" id="estrela_voto_5" src="img/avaliacao/estrela_padrao.svg" onClick="receberVoto_pt2(5)" /> 
+            
+            <input type="button" id="voto-btn" class="voto-btn" value="Enviar" onclick="enviarDados()"></input>
+        </div>
+
+        <!--    SCRIPTS    -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/informations.js"></script>
+        <script type="text/javascript" src="js/gps.js"></script>
+        <script type="text/javascript" src="js/accelerometer.js"></script>
+        <script type="text/javascript" src="js/web_service.js"></script>
+        <script type="text/javascript" src="js/transitions.js"></script>
+    </body>
+</html>
