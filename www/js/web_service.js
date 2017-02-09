@@ -4,7 +4,8 @@ function enviarDados() {
 	/	do usuário sobre a qualidade da viagem.
 	*/
 	var ultimo = listaDadosGPS.length - 1;
-	var url_webservice = "http://eic.cefet-rj.br:8104/animabusws/rest/track/store/";
+	//var url_webservice = "http://eic.cefet-rj.br:8104/animabusws/rest/track/store/";
+	var url_webservice = "http://200.9.149.149:8080/animabusws/rest/track/store/";
 	var data_webservice = {
 		"imei" : device.uuid,
 		"line_number": num_onibus,
@@ -35,8 +36,10 @@ function enviarDados() {
 	
 }
 
+
 function executarServicoLuana(){
-	var url_webservice = "http://10.1.29.48:8080/animabusws/rest/buses/" + num_onibus;
+	//var url_webservice = "http://10.1.29.48:8080/animabusws/rest/buses/" + num_onibus;
+	var url_webservice = "http://200.9.149.149:8080/animabusws/rest/buses/" + num_onibus;
 	var data_webservice = {
 		"busIntersectionList" : busIntersectionList,
 		"gpsBusList": gpsBusList
